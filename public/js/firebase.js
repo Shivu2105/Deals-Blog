@@ -1,13 +1,15 @@
-let firebaseConfig = {
-    apiKey: "AIzaSyC4wN7c-D1vHA8oKT_CCRn99TZTmmEMGn0",
-    authDomain: "blogging-website-85563.firebaseapp.com",
-    projectId: "blogging-website-85563",
-    storageBucket: "blogging-website-85563.appspot.com",
-    messagingSenderId: "471837698309",
-    appId: "1:471837698309:web:3fb6eeda93dfcdfa572f6c",
-    measurementId: "G-G6YXN700NQ"
+ const firebaseConfig = {
+  apiKey: "AIzaSyD0BnAtfQ4aTZws6UyCQvRw1BU7rMHvmu4",
+  authDomain: "blogging-website-b9f5e.firebaseapp.com",
+  projectId: "blogging-website-b9f5e",
+  storageBucket: "blogging-website-b9f5e.appspot.com",
+  messagingSenderId: "6454972693",
+  appId: "1:6454972693:web:0d851c126c7da0cbfad91c"
   };
 
   // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+  // const app = initializeApp(firebaseConfig);
+  // const analytics = getAnalytics(app);
+
+firebase.initializeApp(firebaseConfig);
+let db = firebase.firestore();
